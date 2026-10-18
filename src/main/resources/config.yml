@@ -1,0 +1,6 @@
+# Seconds players must wait between messages
+cooldown: 2.0
+
+prefix: "CHAT"
+prefix-color: "#1FD8FF"
+arrow: "➟"

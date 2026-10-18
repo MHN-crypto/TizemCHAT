@@ -1,0 +1,17 @@
+name: TizemChatLimiter
+version: 1.0.0
+main: com.tizem.chatlimiter.ChatLimiterPlugin
+api-version: '1.21'
+description: Chat cooldown with a live countdown message.
+commands:
+  chatlimiter:
+    description: ChatLimiter controls
+    usage: /chatlimiter reload
+    permission: tizem.chatlimiter.admin
+permissions:
+  tizem.chatlimiter.admin:
+    description: Use /chatlimiter
+    default: op
+  tizem.chatlimiter.bypass:
+    description: Bypass the chat cooldown
+    default: op
